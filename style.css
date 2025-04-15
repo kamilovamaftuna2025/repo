@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.auth button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.blog-intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.post {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.pagination {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
